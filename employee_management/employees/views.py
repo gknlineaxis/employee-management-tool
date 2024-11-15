@@ -8,3 +8,6 @@ def employee_list(request):
 
 def index(request):
     return render(request, 'index.html')
+
+def login_view(request):
+    return render(request, 'employees/login.html')
