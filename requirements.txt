@@ -1,0 +1,25 @@
+# Core Django framework
+Django>=4.0,<5.0
+
+# PostgreSQL Database Driver (if you are using PostgreSQL)
+psycopg2>=2.9.0
+
+# Gunicorn for production WSGI server
+gunicorn>=20.1.0
+
+# Linter and Formatter
+flake8>=5.0.0
+black>=23.0.0
+
+# Testing Libraries
+pytest>=7.0.0
+pytest-django>=4.5.0
+
+# Environment Variable Management
+python-decouple>=3.8
+
+# For managing static files in production
+whitenoise>=6.4.0
+
+# Optional: Authentication Packages (if using OAuth)
+social-auth-app-django>=5.0.0
